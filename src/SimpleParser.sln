@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestConsole", "TestConsole\TestConsole.csproj", "{052A44E4-D777-4994-A04A-739397EC1EF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LagDaemon.SimpleParser.Core", "LagDaemon.SimpleParser.Core\LagDaemon.SimpleParser.Core.csproj", "{EBE70A0E-D670-41A4-93B8-7203A44BB410}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{052A44E4-D777-4994-A04A-739397EC1EF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{052A44E4-D777-4994-A04A-739397EC1EF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{052A44E4-D777-4994-A04A-739397EC1EF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{052A44E4-D777-4994-A04A-739397EC1EF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBE70A0E-D670-41A4-93B8-7203A44BB410}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBE70A0E-D670-41A4-93B8-7203A44BB410}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBE70A0E-D670-41A4-93B8-7203A44BB410}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBE70A0E-D670-41A4-93B8-7203A44BB410}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
