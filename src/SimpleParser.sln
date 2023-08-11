@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestConsole", "TestConsole\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LagDaemon.SimpleParser.Core", "LagDaemon.SimpleParser.Core\LagDaemon.SimpleParser.Core.csproj", "{EBE70A0E-D670-41A4-93B8-7203A44BB410}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "LagDaemon.SimpleParser.Parsing", "LagDaemon.SimpleParser.Parsing\LagDaemon.SimpleParser.Parsing.fsproj", "{EE87CECD-767D-40D3-A868-E98335C71868}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,8 +23,15 @@ Global
 		{EBE70A0E-D670-41A4-93B8-7203A44BB410}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EBE70A0E-D670-41A4-93B8-7203A44BB410}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EBE70A0E-D670-41A4-93B8-7203A44BB410}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE87CECD-767D-40D3-A868-E98335C71868}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE87CECD-767D-40D3-A868-E98335C71868}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE87CECD-767D-40D3-A868-E98335C71868}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE87CECD-767D-40D3-A868-E98335C71868}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {600920E1-7213-461B-9AF0-BC2599023709}
 	EndGlobalSection
 EndGlobal
